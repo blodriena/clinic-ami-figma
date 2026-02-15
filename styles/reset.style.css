@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+
+
+
+
+
+:root {
+  --container-width: 1200px;
+  --accent: #35b6e5;
+  --text-dark: #111;
+  --text-light: #fff;
+  --muted: #8a8a8a;
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 10px;
+}

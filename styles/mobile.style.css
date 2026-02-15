@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+
+  /* HEADER */
+  .nav {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+  }
+
+  /* HERO */
+  .hero-card {
+    padding: 24px;
+    min-height: 420px;
+  }
+
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content input,
+  .hero-content button {
+    width: 100%;
+  }
+
+  .hero-badges {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+  }
+
+  .badge-card {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}
